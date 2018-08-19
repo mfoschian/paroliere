@@ -1,0 +1,82 @@
+body {
+text-align: center;
+}
+
+#board_container {
+	display: none;
+}
+
+#board {
+	margin: 0 auto; /* or margin: 0 auto 0 auto */
+}
+
+#board tr {
+	height: 3em;
+}
+
+#board tr td {
+	width: 3em;
+	height: 3em;
+	text-align: center;
+}
+
+
+#board .letter {
+	border: 1px solid black;
+	font-weight: bold;
+	color: #c27706;
+	border-radius: 5px;
+}
+
+.countdown {
+	margin: 3em;
+	text-align: center;
+}
+
+#timer {
+	font-size: 18pt;
+	font-weight: bold;
+	display: block;
+}
+
+#eotMessage {
+	display: none;
+}
+
+
+.rotate90 {
+	/* Safari */
+	-webkit-transform: rotate(90deg);
+	/* Firefox */
+	-moz-transform: rotate(90deg);
+	/* IE */
+	-ms-transform: rotate(90deg);
+	/* Opera */
+	-o-transform: rotate(90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+.rotate180 {
+	/* Safari */
+	-webkit-transform: rotate(180deg);
+	/* Firefox */
+	-moz-transform: rotate(180deg);
+	/* IE */
+	-ms-transform: rotate(180deg);
+	/* Opera */
+	-o-transform: rotate(180deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+.rotate270 {
+	/* Safari */
+	-webkit-transform: rotate(270deg);
+	/* Firefox */
+	-moz-transform: rotate(270deg);
+	/* IE */
+	-ms-transform: rotate(270deg);
+	/* Opera */
+	-o-transform: rotate(270deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
